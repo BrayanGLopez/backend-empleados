@@ -22,7 +22,7 @@ import com.gestion.empleados.modelo.Empleado;
 
 @RestController
 @RequestMapping("/api/v1/")
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "https://brayanglopez.github.io/frontend-empleados/")
 public class EmpleadoController {
 
 	@Autowired
